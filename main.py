@@ -68,5 +68,5 @@ def init(filename, start_lon_column_name, start_lat_column_name, end_lon_column_
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    init("数据/metroExcel.xls", "fishnetlon", "fishnetlat", "metrolon", "metrolat", '4ce7c6c0f8875bb031433631e4ed71f4',
+    init("数据/metroExcel.xls", "fishnetlon", "fishnetlat", "metrolon", "metrolat", '',
          "数据/metroresult.xls")
