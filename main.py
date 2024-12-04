@@ -215,8 +215,7 @@ def parse_polyline(_list, index):
 
 
 if __name__ == '__main__':
-    key = '4ce7c6c0f8875bb031433631e4ed71f4'
-    # a6c666fc4c889085b57df0ad47df51ef
+    key = ''
     spider("数据/smalldis1.xls", "O_X", "O_Y", "D_X", "D_Y", key,
            city_name="杭州", direction="walk")
     steps2geojson("test/bus_work95.xls", "transits", direction="bus")
